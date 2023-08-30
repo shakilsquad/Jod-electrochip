@@ -233,7 +233,7 @@ input {
   .massage-box{
       padding-bottom: 50px;
   }
-  .contact-box button {
+  .contact-box-button{
       border: none;
       display: inline-block;
       padding: 12px 45px;
@@ -263,12 +263,28 @@ footer p{
 .input-footer{
       display: flex;
       padding: 50px 0;
-      justify-content: space-around;
+      justify-content: center;
+      gap: 40px;
+
+
   }
   .footer-input{
       display: flex;
+      max-width: 75%;
   }
   .socile-div{
       display: flex;
       gap: 10px;
+      max-width: 25%;
   }
+  .button{
+
+  }
+.email{
+    background: aliceblue;
+    padding: 20px 210px 16px 30px;
+    font-size: larger;
+}
+#input-id{
+      margin-right: 10px;
+}
