@@ -100,6 +100,9 @@ ul li a:hover{
       width: 400px;
 
   } */
+  .service-box-title{
+      padding-bottom: 50px;
+  }
 
 .service-box {
       margin: 25px 1%;
@@ -119,6 +122,11 @@ ul li a:hover{
 .service-box h2{
       color: #4b208c;
       font-size: 1.25rem;
+      padding-top: 30px;
+      padding-bottom: 20px;
+}
+.service-box p{
+      padding-bottom: 20px;
 }
 .service-box {
       color: gray;
@@ -131,3 +139,53 @@ ul li a:hover{
       display: flex;
       justify-content: center;
 }
+.service_section-btn-box {
+      text-decoration: none;
+
+}
+
+  .service_section-btn-box {
+      display: inline-block;
+      padding: 15px 35px;
+      background-color: #4b208c;
+      color: #ffffff;
+      border-radius: 35px;
+      margin-top: 50px;
+  }
+/* about section */
+.about-section-main{
+      background-color: #f3f0f6;
+}
+.about-section{
+      display: flex;
+      padding: 70px 0;
+      align-items: center;
+      gap: 50px;
+}
+.about-detiles{
+      width: 500px;
+}
+.about-detiles h1{
+      font-size: 2rem;
+      font-weight: bold;
+      font-family: 'Poppins', sans-serif;
+
+}
+.about-detiles p{
+      padding: 30px 0;
+}
+.about-img{
+      width: 500px;
+      text-align: right;
+}
+.about-img img{
+      border-radius: 50%;
+      border: 5px solid #4b208c;
+
+}
+.about_section-btn {
+      padding: 10px 35px;
+      background-color: #4b208c;
+      color: #ffffff;
+      border-radius: 5px;
+  }
